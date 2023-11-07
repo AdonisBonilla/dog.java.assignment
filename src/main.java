@@ -1,20 +1,16 @@
 public class main {
     public static void main(String[] args) {
-        dog Charlie= new dog(2, "small","Charlie");
-        Charlie.bark();
-        Charlie.eat();
+        rectangle Black = new rectangle(10, 5);
+        Black.getArea();
+        Black.getPerimeter();
 
+        circle blackc = new circle(10);
+        blackc.getCircumference();
+        blackc.getArea();
 
-        dog Max = new dog (5, "medium", "Max");
-        Max.bark();
-        Max.eat();
-
-
-        dog Johnny = new dog (11, "large", "Johnny");
-        Johnny.bark();
-        Johnny.eat();
-
-
+        student Jack= new student(17, "Jack");
+        Jack.getAge();
+        Jack.getName();
 
 
     }
